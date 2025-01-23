@@ -1,4 +1,5 @@
 #!/bin/zsh
+
 # Stampa a video "Hello World"
 echo "Hello World"
 # Dichiarazione di una variabile

@@ -1,6 +1,6 @@
-# SH Script Documentation
+# SH Smanetting
 
-Questo documento fornisce una panoramica sull'uso dello script SH e implementa i principali comandi.
+Questo documento fornisce una panoramica sull'uso dello script SH.
 
 ## Introduzione
 
@@ -75,69 +75,11 @@ La riga `#!/bin/bash` all'inizio di uno script SH indica che lo script deve esse
 echo "Ciao, mondo!"
 ```
 
-> Assicurati che il percorso dell'interprete sia corretto per il tuo sistema. Puoi utilizzare `which bash` per trovare il percorso dell'interprete bash.
+> Assicurati che il percorso dell'interprete sia corretto per il tuo sistema. Puoi utilizzare `which bash` per trovare il percorso dell'interprete bash oppure `which zsh` per trovare il percorso dell'interprete zsh.
 
-## Principali Comandi
+## Risorse utili
 
-### Echo
-
-Il comando `echo` stampa un messaggio sullo schermo.
-
-```sh
-echo "Ciao, mondo!"
-```
-
-### Variabili
-
-Le variabili sono utilizzate per memorizzare valori.
-
-```sh
-nome="Salvatore"
-echo "Ciao, $nome!"
-```
-
-### Condizioni
-
-Le condizioni permettono di eseguire comandi basati su criteri specifici.
-
-```sh
-if [ "$nome" = "Salvatore" ]; then
-  echo "Benvenuto, Salvatore!"
-else
-  echo "Chi sei?"
-fi
-```
-
-### Cicli
-
-I cicli permettono di eseguire ripetutamente un blocco di comandi.
-
-#### Ciclo For
-
-```sh
-for i in 1 2 3; do
-  echo "Numero: $i"
-done
-```
-
-#### Ciclo While
-
-```sh
-contatore=1
-while [ $contatore -le 3 ]; do
-  echo "Contatore: $contatore"
-  contatore=$((contatore + 1))
-done
-```
-
-### Funzioni
-
-Le funzioni permettono di raggruppare comandi in blocchi riutilizzabili.
-
-```sh
-saluta() {
-  echo "Ciao, $1!"
-}
-
-saluta "Salvatore"
-```
+- [Bash Scripting Tutorial](https://www.shellscript.sh/)
+- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
+- [Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
+- [You Suck at Programming](https://ysap.sh/)

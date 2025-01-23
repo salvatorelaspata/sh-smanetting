@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+# This script will execute all the scripts in the current directory and its subdirectories
+
+# Find all the scripts in the current directory and its subdirectories
+for script in $(find . -type f -name "*.sh")
+do
+    # Execute the script
+    echo "Executing $script"
+    ./$script
+done
