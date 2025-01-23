@@ -31,3 +31,7 @@ Usage:
 ```sh
 ./001_2
 ```
+
+## Reference
+
+[You Suck at Programming - BASH_SOURCE](https://www.youtube.com/watch?v=PEKNB5ex29U&t=2s&ab_channel=YouSuckatProgramming)
